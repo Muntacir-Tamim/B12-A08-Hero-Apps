@@ -108,10 +108,10 @@ const Installation = () => {
               </div>
 
               {/* Button */}
-              <div className="pb-4 sm:pb-0">
+              <div className="pb-4 sm:pb-0 sm:flex sm:items-center sm:mr-4 sm:h-full sm:justify-center">
                 <button
                   onClick={() => handleRemover(p.id)}
-                  className="btn bg-[#00D390] text-[#FFFFFF] w-full sm:w-auto sm:mr-4"
+                  className="btn bg-[#00D390] text-[#FFFFFF] w-full sm:w-auto sm:mr-4 "
                 >
                   Unstall
                 </button>
