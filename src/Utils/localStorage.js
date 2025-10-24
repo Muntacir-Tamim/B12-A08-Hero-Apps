@@ -16,7 +16,7 @@ export const updateList = (App) => {
   try {
     const isDublicate = Installation.some((p) => p.id === App.id);
     if (isDublicate) {
-      return toast.success("Already added in wishlist"); //alert("Already added in wishlist");
+      return toast.success("Already added in wishlist");
     }
     const updatedInstallation = [...Installation, App];
 
